@@ -18,7 +18,10 @@ export default {
 h1, h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #1e1e1e;
-  margin-top: 30px;
+  color: #2c3e50;
+}
+
+h1 {
+  margin-top: 40px;
 }
 </style>

@@ -2,7 +2,11 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/projects">Projects</router-link> |
+      <router-link to="/contact">Contact</router-link>
+      <br>
+      <a href="https://github.com/wlw-code" target="_blank"><img alt="GitHub" src="./assets/GitHub-Mark-32px.png" id="githubLogo" width="23"/></a>
     </div>
     <router-view/>
   </div>
@@ -28,5 +32,11 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#githubLogo {
+  margin-top: 10px;
+  border: 2px solid #2c3e50;
+  border-radius: 14px;
 }
 </style>

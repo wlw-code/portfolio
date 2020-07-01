@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -9,18 +10,21 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
-    component: Home,
-    meta: {
-      title: 'Home - wlw'
-    }
+    component: Home
   },
   {
     path: '/about',
     name: 'About',
-    component: About,
-    meta: {
-      title: 'About - wlw'
-    }
+    component: About
+  },
+  {
+    path: '/404',
+    name: '404',
+    component: NotFound
+  },
+  {
+    path: '*',
+    redirect: '/404'
   }
 ]
 

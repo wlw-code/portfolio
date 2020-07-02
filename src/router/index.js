@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import NotFound from '../views/NotFound.vue'
+import Projects from '../views/Projects.vue'
+import Contact from '../views/Contact.vue'
 
 Vue.use(VueRouter)
 
@@ -16,6 +18,16 @@ Vue.use(VueRouter)
     path: '/about',
     name: 'About',
     component: About
+  },
+  {
+    path: '/projects',
+    name: 'Projects',
+    component: Projects
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   },
   {
     path: '/404',
@@ -35,7 +47,7 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = to.name + ' - wlw';
+  document.title = to.name + ' - wlw'
   next()
 })
 

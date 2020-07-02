@@ -6,7 +6,7 @@
       <router-link to="/projects">Projects</router-link> |
       <router-link to="/contact">Contact</router-link>
       <br>
-      <a href="https://github.com/wlw-code" target="_blank"><img alt="GitHub" src="./assets/GitHub-Mark-32px.png" id="githubLogo" width="23"/></a>
+      <a href="https://github.com/wlw-code" target="_blank"><img alt="GitHub" src="./assets/GitHub-Mark-32px.png" id="githubLogo" width="24"/></a>
     </div>
     <router-view/>
   </div>
@@ -31,12 +31,12 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #42e0f5;
 }
 
 #githubLogo {
   margin-top: 10px;
-  border: 2px solid #2c3e50;
-  border-radius: 14px;
+  border: 1px solid #2c3e50;
+  border-radius: 15px;
 }
 </style>

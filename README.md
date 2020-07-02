@@ -1,24 +1,7 @@
 # portfolio
+This is the repository for my Vue.js portfolio website, available [here](https://wlw-code.github.io/portfolio/).
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Quick start
+1. Install dependencies: `npm i`
+2. Host the page locally: `npm run serve`
+3. Build the page in the `dist` folder: `npm run build`

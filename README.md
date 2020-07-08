@@ -1,5 +1,5 @@
 # portfolio
-This is the repository for my Vue.js portfolio website, available [here](https://wlw-code.github.io/portfolio/).
+This is the repository for my Vue.js portfolio website, available [here](https://wlw.codes/).
 
 ## Quick start
 1. Install dependencies: `npm i`

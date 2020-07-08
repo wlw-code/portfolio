@@ -12,6 +12,29 @@
   </div>
 </template>
 
+<script>
+let rootPath = 'https://wlw.codes'
+
+export default {
+  data() {
+    return {
+      logo: rootPath + '/favicon.ico'
+    }
+  },
+  metaInfo() {
+    return {
+      meta: [
+        {property: 'og:title', content: 'Test title'},
+        {property: 'og:site_name', content: 'Portfolio'},
+        {property: 'og:type', content: 'website'},
+        {property: 'og:image', content: this.logo},
+        {property: 'og:description', content: 'My portfolio site.'}
+      ]
+    }
+  }
+}
+</script>
+
 <style>
 #app {
   font-family: Helvetica, Arial, sans-serif;

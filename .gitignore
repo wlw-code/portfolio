@@ -1,2 +1,5 @@
 # Ignore full-res icon
 portfolio icon.png
+
+# Ignore VSCodium launch options
+.vscode/

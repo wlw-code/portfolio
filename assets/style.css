@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    margin-bottom: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.card {
+    padding: 10px;
+}
+
+a {
+    color: rgb(42, 204, 169);
+    padding-right: 2px;
+}
+
+.no-decor {
+    text-decoration: none;
+}

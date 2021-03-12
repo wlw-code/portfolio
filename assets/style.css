@@ -26,3 +26,13 @@ a {
 .no-decor {
     text-decoration: none;
 }
+
+.article-title {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.article-text {
+    text-align: left;
+    padding-bottom: 20px;
+}

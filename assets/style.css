@@ -9,6 +9,11 @@ body {
     text-align: center;
 }
 
+a {
+    color: rgb(42, 204, 169);
+    padding-right: 2px;
+}
+
 .column {
     float: left;
     width: 50%;
@@ -18,21 +23,23 @@ body {
     padding: 10px;
 }
 
-a {
-    color: rgb(42, 204, 169);
-    padding-right: 2px;
-}
-
 .no-decor {
     text-decoration: none;
 }
 
-.article-title {
+.article-text, .article-title, .article-emphasis {
     text-align: left;
-    padding-top: 10px;
 }
 
 .article-text {
-    text-align: left;
     padding-bottom: 20px;
+}
+
+.article-title {
+    padding-top: 10px;
+}
+
+.article-emphasis {
+    color: rgb(33, 181, 250);
+    font-style: italic;
 }
